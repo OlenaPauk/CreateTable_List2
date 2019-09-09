@@ -1,0 +1,522 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: darkgray;
+}
+
+.menu1 {
+    text-align: center;
+    line-height: 110px;
+}
+
+.editing, .bold, .italic, .underline, .strikethrough, .left, .center, .right, .b9, .b10, .palette, .image, .lock, .save, .table, .listOlBut, .listUlBut {
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    background-position: center;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.editing {
+    background-image: url(icon/angle-double-left-solid.svg);
+    width: 50px;
+    height: 40px;
+}
+
+.bold {
+    background-image: url(icon/bold-solid.svg);
+}
+
+.italic {
+    background-image: url(icon/italic-solid.svg);
+    margin-left: -7px;
+    border-radius: 0;
+}
+
+.underline {
+    background-image: url(icon/underline-solid.svg);
+    margin-left: -7px;
+    border-radius: 0;
+}
+
+.strikethrough {
+    background-image: url(icon/strikethrough-solid.svg);
+    margin-left: -7px;
+}
+
+.left {
+    background-image: url(icon/align-left-solid.svg);
+}
+
+.center {
+    background-image: url(icon/align-center-solid.svg);
+    margin-left: -7px;
+    margin-right: -7px;
+    border-radius: 0;
+}
+
+.right {
+    background-image: url(icon/align-right-solid.svg);
+}
+
+.b10 {
+    background-image: url(icon/text-height-solid.svg);
+    margin-left: -7px;
+    border-radius: 0;
+}
+
+.palette {
+    background-image: url(icon/palette-solid.svg);
+    margin-left: -7px;
+    border-radius: 5px;
+}
+
+.image {
+    background-image: url(icon/image-solid.svg);
+    margin-left: -7px;
+    border-radius: 5px;
+}
+
+.lock {
+    background-image: url(icon/lock-solid.svg);
+}
+
+.area1 {
+    width: 100%;
+    min-height: 100vh;
+    border: none;
+    resize: none;
+    display: none;
+}
+
+.container1 {
+    line-height: 40px;
+    padding-left: 50px;
+    display: block;
+}
+
+.save {
+    background-image: url(icon/save-solid.svg);
+}
+
+.table {
+    background-image: url(icon/table-solid.svg);
+}
+
+.listOlBut {
+    background-image: url(icon/list-ol-solid.svg);
+}
+
+.listUlBut {
+    background-image: url(icon/list-ul-solid.svg);
+}
+
+.f3 {
+    display: none;
+}
+
+.optFont {
+    display: none;
+}
+
+.selectFont {
+    width: 45px;
+    height: 40px;
+    background-image: url(icon/font-solid.svg);
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    background-position: center;
+    border-radius: 5px;
+    background-color: #fff;
+    padding-top: 27px;
+    padding-bottom: 10px;
+}
+
+.selectHeight {
+    width: 45px;
+    height: 40px;
+    background-image: url(icon/text-height-solid.svg);
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    background-position: center;
+    border-radius: 5px;
+    background-color: #fff;
+    padding-top: 27px;
+    padding-bottom: 10px;
+    margin-right: 5px;
+}
+
+.height1 {
+    font-size: 12px;
+}
+
+.height2 {
+    font-size: 14px;
+}
+
+.height3 {
+    font-size: 16px;
+}
+
+.height4 {
+    font-size: 18px;
+}
+
+.height5 {
+    font-size: 20px;
+}
+
+.height6 {
+    font-size: 22px;
+}
+
+.height7 {
+    font-size: 25px;
+}
+
+.height8 {
+    font-size: 30px;
+}
+
+.arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.georgia {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.impact {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.tahoma {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.timesNewRoman {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.verdana {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contColor {
+    display: none;
+}
+
+.colors {
+    width: 440px;
+    height: 200px;
+    background-color: white;
+    margin-left: 470px;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 20px;
+    justify-content: space-around;
+}
+
+.div1, .div2, .div3, .div4, .div5, .div6, .div7, .div8, .div9, .div10, .div11, .div12, .div13, .div14, .div15, .div16, .div17, .div18, .div19, .div20, .div21 {
+    width: 50px;
+    height: 50px;
+    /* display: none; */
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.contBackground {
+    display: none;
+    width: 430px;
+    height: 280px;
+}
+
+.f4 {
+    width: 100%;
+    margin-top: 5px;
+    position: fixed;
+    top: 30px;
+    margin-left: 480px;
+    z-index: 1;
+    display: none;
+}
+
+.background {
+    width: 440px;
+    height: 220px;
+    background-color: white;
+    margin-left: 470px;
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: fixed;
+    top: 20px;
+}
+
+.images {
+    width: 440px;
+    height: 250px;
+    background-color: white;
+    margin-left: 470px;
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: fixed;
+    top: 20px;
+    /* display: none; */
+}
+
+.files {
+    width: 440px;
+    height: 70px;
+    background-color: white;
+    margin-left: 470px;
+    padding-top: 40px;
+    position: fixed;
+    top: 20px;
+    border-radius: 5px;
+    /* display: none; */
+}
+
+.inputFile {
+    width: 350px;
+    height: 25px;
+    margin-left: 10px;
+    border: 1px solid gray;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 4px;
+    padding-top: 5px;
+}
+
+.butFile {
+    width: 60px;
+    height: 32px;
+    margin-left: -5px;
+    border: 1px solid gray;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 15px;
+}
+
+.div1b, .div2b, .div3b, .div4b, .div5b, .div6b, .div7b, .div8b, .div9b, .div10b, .div11b, .div12b, .div13b, .div14b, .div15b, .div16b, .div17b, .div18b, .div19b, .div20b, .div21b {
+    width: 50px;
+    height: 50px;
+    display: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.butCol, .butImg, .butFiles {
+    width: 70px;
+    background-color: #fff;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9 {
+    width: 120px;
+    height: 55px;
+    /* display: none; */
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.tableEdit {
+    width: 500px;
+    min-height: 280px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    left: 33%;
+    display: none;
+}
+
+.f6 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tableInp1 {
+    width: 230px;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.tableTR, .tableTD, .tableWtd, .tableHtd {
+    width: 45%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.tableWBorder {
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.tableSBorder, .tableCBorder {
+    width: 22%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.selectBorder {
+    width: 130px;
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.borderColor {
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.resetTable {
+    width: 47%;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+
+.createTable {
+    width: 47%;
+    height: 30px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+
+.listOlEdit, .listUlEdit {
+    width: 300px;
+    min-height: 170px;
+    border: 1px solid black;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    left: 40%;
+    border-radius: 5px;
+    display: none;
+}
+
+.f7, .f8 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.listInp1, .listInp2 {
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.typeLiOl, .typeLiUl {
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.resetListOl, .createListOl, .resetListUl, .createListUl {
+    width: 44%;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.resetListOl, .resetListUl {
+    background-color: red;
+    margin-right: 5px;
+}
+
+.createListOl, .createListUl {
+    background-color: green;
+}
+
+.listP1 {
+    margin-right: 180px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.listP2 {
+    margin-right: 150px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.f6 input.valid, .f7 input.valid, .f8 input.valid {
+    background-color: rgb(145, 250, 145);
+}
+
+.f6 input.error, .f7 input.error, .f8 input.error {
+    background-color: rgb(245, 129, 129);
+}
+
+.signIn {
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    left: 40%;
+    display: none;
+}
+
+.signP {
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.loginInp, .passInp, .signInBut {
+    width: 90%;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.signInBut {
+    background-color: gray;
+    color: white;
+}
+
+hr {
+    margin-bottom: 10px;
+}
